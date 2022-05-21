@@ -1,0 +1,333 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>404 || Raz</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link href="assets/images/favicon.ico" type="img/x-icon" rel="shortcut icon">
+    <!-- All css files are included here. -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/iconfont.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/helper.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+    <link rel="stylesheet" href="assets/css/vendor/revslider.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Modernizr JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body class="">
+
+    <div id="main-wrapper" class=" ">
+        <!-- Start Loader Area -->
+        <div class="la-image-loading">
+            <div class="content">
+                <div class="la-loader spinner3">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                    <div class="cube1"></div>
+                    <div class="cube2"></div>
+                    <div class="cube3"></div>
+                    <div class="cube4"></div>
+                </div>
+            </div>
+            <button class="submit-btn shop-btn">Cancel Preloader</button>
+        </div>
+        <!-- End Loader Area -->
+       
+
+
+
+        <div class="error-404-page-area section">
+            <div class="container">
+                <div class="row align-items-center height-100vh">
+                    <div class="col-lg-7 col-md-7">
+                        <div class="error-content">
+                            <h1>404</h1>
+                            <h2>Page cannot be found!</h2>
+                            <p>Sorry, this page does not work</p>
+                            <a class="read-btn border" href="index.html">Back to homepage</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <div class="error-image">
+                            <img src="assets/images/404/bg-404.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!-- All jquery file included here -->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+
+
+    <script src="assets/js/rev/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/rev/jquery.themepunch.tools.min.js"></script>
+
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="assets/js/rev/revolution.extension.actions.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.carousel.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.migration.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.navigation.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.parallax.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/js/rev/revolution.extension.video.min.js"></script>
+
+    <script src="assets/js/rev/revoulation.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGM-62ap9R-huo50hJDn05j3x-mU9151Y"></script>
+    <Script>
+        if ($('#htmap2').length) {
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 12,
+
+                    scrollwheel: false,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(23.7286, 90.3854), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [
+
+
+                        {
+                            "featureType": "administrative",
+                            "elementType": "all",
+                            "stylers": [{
+                                "hue": "#ff0000"
+                            }]
+                        },
+                        {
+                            "featureType": "administrative",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#888888"
+                            }]
+                        },
+                        {
+                            "featureType": "administrative",
+                            "elementType": "geometry.fill",
+                            "stylers": [{
+                                "hue": "#ff0000"
+                            }]
+                        },
+                        {
+                            "featureType": "administrative",
+                            "elementType": "labels.text",
+                            "stylers": [{
+                                    "color": "#6e6e6e"
+                                },
+                                {
+                                    "visibility": "simplified"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative.country",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#6f6b6b"
+                            }]
+                        },
+                        {
+                            "featureType": "landscape",
+                            "elementType": "labels.text",
+                            "stylers": [{
+                                "color": "#c5c5c5"
+                            }]
+                        },
+                        {
+                            "featureType": "landscape.natural",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#cfcfcf"
+                            }]
+                        },
+                        {
+                            "featureType": "landscape.natural.landcover",
+                            "elementType": "all",
+                            "stylers": [{
+                                "hue": "#ff0000"
+                            }]
+                        },
+                        {
+                            "featureType": "landscape.natural.landcover",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "hue": "#ff0000"
+                            }]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "all",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "labels.text",
+                            "stylers": [{
+                                    "visibility": "off"
+                                },
+                                {
+                                    "color": "#909090"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "labels.icon",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "poi.medical",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#e5e5e5"
+                            }]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#e5e5e5"
+                            }]
+                        },
+                        {
+                            "featureType": "poi.place_of_worship",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#ff0000"
+                            }]
+                        },
+                        {
+                            "featureType": "poi.sports_complex",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#f7f7f7"
+                            }]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "geometry.fill",
+                            "stylers": [{
+                                "color": "#ffffff"
+                            }]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "geometry.stroke",
+                            "stylers": [{
+                                "gamma": 7.18
+                            }]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "labels.icon",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "road.local",
+                            "elementType": "labels.text",
+                            "stylers": [{
+                                "visibility": "simplified"
+                            }]
+                        },
+                        {
+                            "featureType": "transit.line",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "gamma": 0.48
+                            }]
+                        },
+                        {
+                            "featureType": "transit.station",
+                            "elementType": "labels.icon",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "all",
+                            "stylers": [{
+                                    "color": "#bcbcbc"
+                                },
+                                {
+                                    "visibility": "on"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "color": "#ffffff"
+                            }]
+                        }
+                    ]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('htmap2');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var contentString = '<div id="content">' +
+                    '<div id="siteNotice">' +
+                    '</div>' +
+                    '<div id="bodyContent">' +
+                    '<p>Barisal Polytechnic Institute, </br>Street Name, </br>Barisal, Bangladesh</p>' +
+                    '</div>' +
+                    '</div>';
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(23.7286, 90.3854),
+                    map: map,
+                    title: 'RAZ',
+                    icon: 'assets/images/logo-contact.png',
+                    animation: google.maps.Animation.BOUNCE
+
+                });
+            }
+        }
+    </Script>
+
+
+
+</body>
+
+</html>
